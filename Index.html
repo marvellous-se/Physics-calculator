@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MADUBUKO MARVELLOUS - SE</title>
+    <style>
+      body{
+        background: #0a0a0a;
+        color: white;
+        font-family: Arial;
+        padding: 20px;
+      }
+      h1{
+        color: #00a8ff;
+        text-align: center;
+        font-size: 28px;
+      }
+      h2{
+        color: #cccccc;
+        text-align: center;
+      }
+      h3{
+        color: #00a8ff;
+        margin-top: 25px;
+      }
+      button{
+        background: #28a745;
+        color: white;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        margin: 5px 0;
+      }
+      a{
+        background: #25D366;
+        color: white;
+        padding: 12px 24px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        font-weight: bold;
+      }
+      ul{
+        line-height: 1.8;
+      }
+      input{
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 5px;
+        border: 1px solid #00a8ff;
+        width: 80%;
+        background: #1a1a1a;
+        color: white;
+      }
+    </style>
+</head>
+<body>
+    <h1>MADUBUKO MARVELLOUS</h1>
+    <h2>Ss2 Science Student, 3rd term</h2>
+    <p>Math: 8/10 | Physics: 8/10</p>
+    <p>Subject: Further Math, T.D, Digital Tech, GSM</p>
+    <p>Today I start coding on my phone</p>
+    <button onclick="alert('Day one complete!')">Click Me</button>
+    
+    <h3>My Skills:</h3>
+    <ul>
+      <li>Further Math</li>
+      <li>Physics</li>
+      <li>T.D Design</li>
+      <li>Digital Tech</li>
+      <li>GSM Repair + Code</li>
+    </ul>
+    
+    <h3>Hire Me:</h3>
+    <p>I design simple websites for businesses, churches, and schools.</p>
+    <a href="https://wa.me/2349021198403" target="_blank">Contact Me on WhatsApp to Get Started</a>
+    
+    <!-- DAY 4 CALCULATOR STARTS HERE ↓ -->,
+    <h3>Physics Tool — Velocity Calculator</h3>
+    <p>Built by 15yr old SE from Lagos. Formula: v = s ÷ t</p>
+    
+    <input type="number" id="distance" placeholder="Enter Distance (meters)">
+    <br>
+    <input type="number" id="time" placeholder="Enter Time (seconds)">
+    <br>
+    <button onclick="calculateVelocity()">Calculate Velocity</button>
+    
+    <p id="result" style="color: #00a8ff; font-size: 20px; font-weight: bold;">
+      Answer go show here
+    </p>
+    
+    <script>
+    function calculateVelocity() {
+      let s = document.getElementById('distance').value;
+      let t = document.getElementById('time').value;
+      
+      if (t == 0) {
+        document.getElementById('result').innerHTML = "Oga, Time no fit be 0! Error.";
+        return;
+      }
+      
+      let v = s / t;
+      document.getElementById('result').innerHTML = 
+        "Velocity = " + v + " m/s ✅";
+    }
+    </script>
+    <!-- DAY 4 CALCULATOR ENDS HERE ↑ -->
+    
+</body>
+</html>
