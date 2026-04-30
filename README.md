@@ -1,18 +1,24 @@
-# Physics Calculator — Velocity v = s/t
+# Physics Calculator ⚡
 
-Built by **Madubuko Marvellous**, 15yr old Software Engineer from Lagos, Nigeria.
+**Live Demo:** https://marvellous-se.github.io/Physics-calculator
 
-## Live Demo
-Click here to use calculator → [Add link after Step 5]
+## About
+A mobile-friendly physics calculator for WAEC/NECO students. Built with vanilla HTML, CSS, JavaScript.
 
-## Skills Used
-- HTML: Structure
-- CSS: Dark theme design  
-- JavaScript: v = s/t calculation + Error handling
+**Current Features:**
+- Velocity Calculator: v = s ÷ t
+- Error handling for t=0
+- Responsive design
 
-## WAEC Physics Applied
-Formula: Velocity = Distance ÷ Time  
-Test: 100m ÷ 10s = 10 m/s ✅
+**Roadmap:**
+- Force Calculator: F = ma
+- Energy Calculator: E = ½mv²  
+- Density Calculator: ρ = m/v
 
-## Contact
-WhatsApp: +2349021198403
+## Built By
+**Marvellous** — 15yr old Software Engineer from Lagos, Nigeria 🇳🇬  
+**Goal:** Computer Science @ University of Toronto, 2028  
+**Skills:** HTML5, CSS3, JavaScript, Git, GitHub Pages, GSM Repair
+
+## Tech Stack
+HTML5 | CSS3 | JavaScript ES6 | Git | GitHub Pages
